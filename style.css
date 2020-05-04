@@ -779,8 +779,6 @@ font-size: 14px;
 .news-nav{
   margin-left: 0;
 }
-.news-pages-list{
-}
 .news-nav ul{
   list-style: none;
   margin-bottom: 80px;
@@ -814,6 +812,7 @@ margin-bottom: 20px;
 
 .news-pages-list{
   text-align: center;
+  margin-top: 50px;
 }
 
 .news-pages-list .btn{
@@ -826,3 +825,206 @@ margin-bottom: 20px;
   color:#000000;
   cursor: default;
 }
+
+
+
+/*SHOP*/
+
+
+.shop-nav{
+  float: left;
+  width: 220px;
+}
+.shop-nav label{
+  display: block;
+}
+.shop-content{
+  width: 700px;
+  float: right;
+  margin-top: 25px;
+}
+
+.shop-item{
+  
+  float: left;
+  width: 220px;
+  background-color: #ffffff;
+   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
+.shop-item-hidden{
+display: none;
+}
+.shop-item a:hover{
+background-color: transparent;
+}
+.shop-item:nth-child(3n){
+  margin-right: 0;
+}
+.shop-item p{
+  margin:0;
+  text-transform: none;
+}
+.shop-item .manufacturer {
+  text-transform: uppercase;
+}
+
+
+.shop-item .btn{
+  padding-left:16px;
+  padding-right: 16px; 
+  margin: 0;
+}
+.item-info{
+  margin: 15px;
+  margin-top: 0px;
+}
+.price {
+  background-color: #999999;
+  text-align: center;
+
+}
+.price .btn{
+  float: right;
+}
+.price label{
+line-height: 43px;
+}
+
+
+
+
+
+.shop-checkbox{
+  display:inline-block;
+  margin: 10px 0;
+}
+.shop-checkbox input[type="checkbox"],
+.shop-checkbox input[type="radio"] {
+  display: none;
+}
+.shop-checkbox {
+  position: relative;
+
+  padding-left: 30px;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.shop-checkbox input[type="checkbox"] + .checkbox-indicator,
+.shop-checkbox input[type="radio"]+.checkbox-indicator {
+  position: absolute;
+  top: -3px;
+  left: 0;
+
+  width: 17px;
+  height: 17px;
+
+  border: 2px solid #000000;
+}
+.shop-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
+.shop-checkbox input[type="radio"]:checked + .checkbox-indicator::before,
+.shop-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after,
+.shop-checkbox input[type="radio"]:checked + .checkbox-indicator::after {
+ content: "";
+  position: absolute;
+  top: 8px;
+  left: 1px;
+
+  width: 15px;
+  height: 2px;
+
+  background-color: #000000;
+}
+    .shop-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
+    .shop-checkbox input[type="radio"]:checked + .checkbox-indicator::before {
+  transform: rotate(45deg);
+}
+
+.shop-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after,
+.shop-checkbox input[type="radio"]:checked + .checkbox-indicator::after {
+  transform: rotate(-45deg);
+}
+
+.shop-checkbox:hover{
+  color:#663d15;
+}
+
+
+
+
+
+
+
+.shop-groups input[type="radio"] + .checkbox-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.shop-groups input[type="radio"]:checked + .checkbox-indicator::after {
+ content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+
+  width: 8px;
+  height: 8px;
+
+  background-color: #000000;
+  border-radius:50%;
+}
+.shop-groups input[type="radio"]:checked + .checkbox-indicator::before{
+  display: none;
+}
+.shop-groups {
+  margin-bottom: 20px;
+
+}
+.shop-checkbox{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.item-images {
+  float: left;
+  width: 460px;
+  margin-top: 55px;
+}
+.item-images img{
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
+
+}
+.item-images img:last-child {
+  margin-right:0;
+}
+.description  .price{
+  max-height: 45px;
+  max-width: 188px;
+}
+.description .btn{
+  margin: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.description {
+  float :right;
+  width: 400px;
+  margin-top: 55px;
+}
+.articul{ 
+  float: right;
+  color:#999999;
+}
+.description p{
+  margin-top: 55px;
+}
+
